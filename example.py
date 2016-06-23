@@ -1,9 +1,11 @@
 #!/usr/bin/env python
 
-import sys, time, gui
+import sys, time
+sys.path.append('..')
+import pwkg
 
 def setupElectron(index_path, on_event):
-   w = gui.Window(100, 100, "Scheme JS", debug=True)
+   w = pwkg.Window(100, 100, "Scheme JS", debug=True)
    w.load('index.html')
    w.on_gui_event += on_event
    return w
