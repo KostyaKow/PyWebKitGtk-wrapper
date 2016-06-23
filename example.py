@@ -5,8 +5,8 @@ sys.path.append('..')
 import pwkg
 
 def setupElectron(index_path, on_event):
-   w = pwkg.Window(100, 100, "Scheme JS", debug=True)
-   w.load('index.html')
+   w = pwkg.Window(100, 100, "PWKG Window", debug=True)
+   w.load(index_path)
    w.on_gui_event += on_event
    return w
 
