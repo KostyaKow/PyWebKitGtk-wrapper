@@ -2,4 +2,9 @@ This script sets up Python WebkitGTK window, and has a hack for passing messages
 
 run ./setup.sh and look at example.py
 
-License: BSD
+
+Derived from internal ICLOAK Python library (pycloak)
+
+License: Currently proprietary
+
+TODO: BSD
