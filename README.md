@@ -2,4 +2,4 @@ This script sets up Python WebkitGTK window, and has a hack for passing messages
 
 run ./setup.sh and look at example.py
 
-License: GPLv2+
+License: BSD
